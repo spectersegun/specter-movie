@@ -15,6 +15,7 @@ import MovieCard from "../movie-card/MovieCard";
 
 const MovieList = (props) => {
   const [items, setItems] = useState([]);
+
   useEffect(() => {
     const getList = async () => {
       let response = null;
